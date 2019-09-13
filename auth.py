@@ -1,4 +1,4 @@
-# developed in Python 3.7.3 - see requirements.txt for other dependencies
+# developed in Python 3.7.3 - see readme for other dependencies
 from boxsdk import JWTAuth, Client
 from utils import *
 import json
