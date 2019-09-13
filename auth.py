@@ -5,7 +5,7 @@ import json
 from boxsdk.exception import BoxAPIException
 
 configFileName = ''
-
+#if pyinstaller unable to deal with json file, then copy,paste values from json file to below.
 with open(configFileName, 'r') as data_file:
     ''' Import the Config file and create a keyfile '''
     data = json.load(data_file)
